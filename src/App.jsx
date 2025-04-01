@@ -76,7 +76,7 @@ function App() {
 
       <div className='whole'>
 
-        <div className='next'>
+        <div className='next'> 
 
           <h1 style={{ textAlign: 'center' }}>PAGINATION</h1>
 
