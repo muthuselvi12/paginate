@@ -19,11 +19,23 @@
 }
 
 .next {
-  padding: 15px;
+  padding: 15px 20px;
   margin: 20px;
   max-width: 90%;
   box-sizing: border-box;
+  border: 2px solid #007BFF;   /* Border added */
+  border-radius: 6px;          /* Rounded corners */
+  background-color: white;     /* Default background */
+  color: #007BFF;              /* Text color */
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
+
+.next:hover {
+  background-color: #007BFF;
+  color: white;
+}
+
 
 .active {
   background-color: blue;
@@ -37,9 +49,10 @@
     gap: 8px;
   }
 
-  .next {
+   .next {
     padding: 12px;
     margin: 16px;
+    width: auto;
   }
 }
 
@@ -51,8 +64,8 @@
     gap: 12px;
   }
 
-  .next {
-    padding: 10px;
+.next {
+    padding: 12px;
     margin: 10px auto;
     width: 100%;
     text-align: center;
