@@ -52,7 +52,7 @@ function App() {
 
   // console.log(IndexOfFirstPost, IndexOfLastPost, CurrentPosts)
 
-  const totalPages = (filterData.length / postsPerPage)
+  const totalPages = Math.ceil(filterData.length / postsPerPage)
 
   const buttons = []
   for (let i = 1; i <= totalPages; i++) {
